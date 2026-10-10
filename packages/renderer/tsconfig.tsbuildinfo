@@ -1,0 +1,1 @@
+{"root":["./src/dominvoicerenderer.tsx","./src/emailinvoicerenderer.ts","./src/pdfinvoicerenderer.ts","./src/index.ts","./src/mockdata.ts","./src/renderer.test.ts","./src/types.ts"],"errors":true,"version":"5.9.3"}
