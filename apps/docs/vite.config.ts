@@ -12,6 +12,15 @@ export default defineConfig({
       '@invoicekit/renderer': path.resolve(__dirname, '../../packages/renderer/src'),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+      },
+    },
+  },
   server: {
     port: 3000,
     host: true,

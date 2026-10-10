@@ -193,9 +193,10 @@ export default function App() {
             <div style={{ display: 'flex', alignItems: 'center', gap: spacing[2] }}>
               <span style={{ fontWeight: 700, fontSize: '1.125rem', color: colors.neutral[900] }}>InvoiceKit</span>
               <Badge variant="info" size="sm">v1.0.0</Badge>
+              <Badge variant="success" size="sm">by OM INGOLE</Badge>
             </div>
-            <span style={{ fontSize: '0.75rem', color: colors.neutral[500] }}>
-              Shared Component Library & Universal Invoice Engine
+            <span style={{ fontSize: '0.75rem', color: colors.neutral[600] }}>
+              Designed &amp; Developed by <strong>OM INGOLE</strong> • 2nd Year IT @ SSGMCE
             </span>
           </div>
         </div>
@@ -1063,7 +1064,7 @@ jobs:
               href="https://github.com/omingole87"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ fontWeight: 700, color: colors.brand[600], textDecoration: 'none' }}
+              style={{ fontWeight: 700, color: colors.primary[600], textDecoration: 'none' }}
             >
               OM INGOLE
             </a>{' '}
