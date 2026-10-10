@@ -1,11 +1,16 @@
 # InvoiceKit ⚡ (India Edition)
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Web_Studio-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://omingole87.github.io/invoicekit/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue?style=for-the-badge&logo=github)](https://omingole87.github.io/invoicekit/)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![npm workspaces](https://img.shields.io/badge/Monorepo-npm%20workspaces-CB3837?logo=npm&logoColor=white)](https://docs.npmjs.com/cli/using-npm/workspaces)
-[![CI](https://github.com/omingole87/invoicekit/actions/workflows/ci.yml/badge.svg)](https://github.com/omingole87/invoicekit/actions)
 [![GST Compliant](https://img.shields.io/badge/GST-Compliant%20%F0%9F%87%AE%F0%9F%87%B3-green.svg)](https://www.gst.gov.in/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> 🔗 **Interactive Live Studio:** [https://omingole87.github.io/invoicekit/](https://omingole87.github.io/invoicekit/)  
+> **Try without any setup:** Explore the live Tax Invoice Studio, 24 WCAG AA UI components, and the automated WCAG contrast audit evaluator directly in your browser.
 
 > **Shared component library & universal invoice renderer engine for modern Indian business software.**  
 > Compliant with Indian GST laws, HSN/SAC codes, Indian numbering (Lakhs & Crores), Indian Banking (NEFT/RTGS/IMPS), and instant UPI payments.  
