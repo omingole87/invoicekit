@@ -1048,13 +1048,28 @@ jobs:
         style={{
           borderTop: `1px solid ${colors.neutral[200]}`,
           backgroundColor: colors.white,
-          padding: `${spacing[4]} ${spacing[6]}`,
-          textAlign: 'center',
+          padding: `${spacing[5]} ${spacing[6]}`,
           fontSize: '0.8125rem',
-          color: colors.neutral[500],
+          color: colors.neutral[600],
         }}
       >
-        <strong>InvoiceKit</strong> — Production Component Library & Universal Invoice Engine. Built with React, TypeScript & Vite.
+        <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: spacing[2], alignItems: 'center', textAlign: 'center' }}>
+          <div>
+            <strong>InvoiceKit</strong> — Production Component Library & Universal Invoice Engine. Built with React, TypeScript & Vite.
+          </div>
+          <div style={{ fontSize: '0.875rem', color: colors.neutral[700] }}>
+            Designed &amp; Developed by{' '}
+            <a
+              href="https://github.com/omingole87"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontWeight: 700, color: colors.brand[600], textDecoration: 'none' }}
+            >
+              OM INGOLE
+            </a>{' '}
+            • 2nd Year IT @ SSGMCE
+          </div>
+        </div>
       </footer>
     </div>
   );
